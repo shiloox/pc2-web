@@ -1,0 +1,15 @@
+@pc2u202114643.API_HostAddress = https://localhost:5001
+
+POST {{pc2u202114643.API_HostAddress}}/api/v1/dispatch-orders
+Content-Type: application/json
+Accept: application/json
+
+{
+  "productId": "b287f44d-4e38-4f91-a358-2ee7e9d2d111",
+  "requestedUnits": 250,
+  "dispatchExpectedAt": "2024-09-01T00:00:00Z",
+  "dispatchCompletedAt": "2024-09-05T00:00:00Z",
+  "notes": "Valve replacement batch"
+}
+
+###
